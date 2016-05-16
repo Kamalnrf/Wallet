@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/view_camera_and_title"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crime_details_lable"
+            style="?android:listSeparatorTextViewStyle"/>
+
+        <Button
+            android:id="@+id/crime_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bank_name"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/bank_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bank_name_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name_on_account"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/name_on_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_on_account_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/account_type"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/account_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/account_type_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/routing_number"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/routing_number_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/routing_number_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/account_number"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/account_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/account_number_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/swift_code"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/swift_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/swift_code_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/iban_number"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/iban_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/iban_number_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pin"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/pin_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/address_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

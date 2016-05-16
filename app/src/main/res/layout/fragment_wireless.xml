@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/view_camera_and_title"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crime_details_lable"
+            style="?android:listSeparatorTextViewStyle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/base_station_name"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/base_station_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/base_station_name_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/base_station_password"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/base_station_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/base_station_password_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/server"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/server"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/server_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/air_port_id"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/airport_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/air_port_id_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/network_name"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/network_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/network_name_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wireless_security"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/wireless_security"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/wireless_security_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wireless_network_password"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/wireless_network"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/wireless_network_password_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wireless_storage_password"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/wireless_storage_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/wireless_storage_password_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.example.kamalnrf.wallet"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".WalletActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Controllers.BankAccountCntrollers.BankAccountListActivity"
+                  android:parentActivityName=".WalletActivity"
+                  android:label="Bank Account"
+                  />
+        <activity android:name=".Controllers.IdentityControllers.IndentityListActivity"
+                  android:parentActivityName=".WalletActivity"
+                  android:label="Identity"
+            />
+        <activity android:name=".Controllers.WireLessController.WirelessRouterListActivity"
+                  android:parentActivityName=".WalletActivity"
+                  android:label="WIFI Router"
+            />
+        <activity
+            android:name=".Controllers.BankAccountCntrollers.BankAccountPagetActivity"
+            android:parentActivityName=".Controllers.BankAccountCntrollers.BankAccountListActivity"
+            android:label="Bank Account"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Controllers.IdentityControllers.IdentityPagerActivity"
+                  android:parentActivityName=".Controllers.IdentityControllers.IndentityListActivity"
+                  android:label="Identity"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name=".Controllers.WireLessController.WirelessRouterPagerActivity"
+                  android:parentActivityName=".Controllers.WireLessController.WirelessRouterListActivity"
+                  android:label="WIFI Router"
+                  android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

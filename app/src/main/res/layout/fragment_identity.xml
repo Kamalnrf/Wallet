@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/view_camera_and_title"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crime_details_lable"
+            style="?android:listSeparatorTextViewStyle"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/first_name"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/first_name_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/last_name"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/last_name_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sex"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/sex_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/birth_date"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/birth_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/birth_date_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/occupation"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/occupation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/occupation_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/company"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/company_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/department"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/department"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/department_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/job_title"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/job_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/job_title_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/street"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/street"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/street_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/city"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/city_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zip"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/zip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/zip_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/province"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/province"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/province_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/country"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/country_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/home_phone"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/home_phone_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cell_phone"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/cell_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cell_phone_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/business_phone"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/bussiness_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/business_phone_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/user_name"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/user_name_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reminder_question"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/reminder_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/reminder_question_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reminder_answer"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/reminder_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/reminder_answer_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/web_site"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/web_site"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/web_site_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ICQ"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/icq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ICQ_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/skype"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/skype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/skype_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/forum_signature"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+        <EditText
+            android:id="@+id/forum_signature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/forum_signature_hint"
+            android:textSize="10dp"
+            android:padding="13dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
