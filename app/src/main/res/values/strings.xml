@@ -105,4 +105,15 @@
     <string name="wireless_storage_password">Wireless Storage Password</string>
     <string name="wireless_storage_password_hint">Enter Wireless Storage Password</string>
 
+    <!-- Licence -->
+    <string name="height">Height</string>
+    <string name="height_hint">Enter your Height</string>
+    <string name="number">Number</string>
+    <string name="number_hint">Enter the number</string>
+    <string name="licence_class">Licence Class</string>
+    <string name="licence_hint">Enter licence hint</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="expiry_date_hint">Enter your expiry date</string>
+
+
 </resources>

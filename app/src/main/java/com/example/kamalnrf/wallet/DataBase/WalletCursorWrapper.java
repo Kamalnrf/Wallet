@@ -5,6 +5,7 @@ import android.database.CursorWrapper;
 
 import com.example.kamalnrf.wallet.Model.BankAccountModel.Crime;
 import com.example.kamalnrf.wallet.Model.BankAccountModel.Identity;
+import com.example.kamalnrf.wallet.Model.BankAccountModel.Licence;
 import com.example.kamalnrf.wallet.Model.BankAccountModel.WirelessRouter;
 
 import java.util.Date;
@@ -143,6 +144,37 @@ public class WalletCursorWrapper extends CursorWrapper
         wirelessRouter.setWirelessStoragePasssword(wirelessStoragePassword);
 
         return wirelessRouter;
+    }
+
+    public Licence getLicence ()
+    {
+        String uuidString = getString(getColumnIndex(WalletDbSchema.Licence.Cols.UUID));
+        String fullName = getString(getColumnIndex(WalletDbSchema.Licence.Cols.FULLNAME));
+        String date = getString(getColumnIndex(WalletDbSchema.Licence.Cols.DATE));
+        String sex = getString(getColumnIndex(WalletDbSchema.Licence.Cols.SEX));
+        String height = getString(getColumnIndex(WalletDbSchema.Licence.Cols.HEIGHT));
+        String number = getString(getColumnIndex(WalletDbSchema.Licence.Cols.NUMBER));
+        String state = getString(getColumnIndex(WalletDbSchema.Licence.Cols.STATE));
+        String country = getString(getColumnIndex(WalletDbSchema.Licence.Cols.COUNTRY));
+        String exDate = getString(getColumnIndex(WalletDbSchema.Licence.Cols.EXDATE));
+        String address = getString(getColumnIndex(WalletDbSchema.Licence.Cols.ADDRESS));
+        String licenceClass = getString(getColumnIndex(WalletDbSchema.Licence.Cols.LICENCECLASS));
+
+        Licence licence1 = new Licence(UUID.fromString(uuidString));
+        licence1.setAddress(address);
+        licence1.setCountry(country);
+        licence1.setDateOfBirth(date);
+        licence1.setExpiryDate(exDate);
+        licence1.setFullName(fullName);
+        licence1.setHeight(height);
+        licence1.setLicenceClass(licenceClass);
+        licence1.setNumber(number);
+        licence1.setSex(sex);
+        licence1.setCountry(country);
+        licence1.setExpiryDate(exDate);
+        licence1.setState(state);
+
+        return licence1;
     }
 
 }

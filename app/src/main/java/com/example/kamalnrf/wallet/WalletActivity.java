@@ -50,5 +50,11 @@ public class WalletActivity extends AppCompatActivity
                 startActivity(intent);
             }
         });
+
+        mLicence = (Button) findViewById(R.id.licence);
+        /*mLicence.setOnClickListener(new View.OnClickListener()
+        {
+            Intent intent = mLicence.
+        });*/
     }
 }

@@ -83,4 +83,24 @@ public class WalletDbSchema
         }
     }
 
+    public static final class Licence
+    {
+        public static final String NAME = "licence";
+
+        public static final class Cols
+        {
+            public static final String UUID = "uuid";
+            public static final String FULLNAME = "full";
+            public static final String ADDRESS = "address";
+            public static final String DATE = "date";
+            public static final String SEX = "sex";
+            public static final String HEIGHT = "height";
+            public static final String NUMBER = "number";
+            public static final String STATE = "state";
+            public static final String COUNTRY = "country";
+            public static final String EXDATE = "exdate";
+            public static final String LICENCECLASS = "licenceclass";
+        }
+    }
+
 }
