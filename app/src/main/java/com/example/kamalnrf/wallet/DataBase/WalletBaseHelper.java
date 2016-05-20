@@ -82,7 +82,7 @@ public class WalletBaseHelper extends SQLiteOpenHelper
                         WalletDbSchema.WirelessRouter.Cols.WIRELESSSECURITY + ")"
         );
 
-        db.execSQL("create table "+ WalletDbSchema.Licence.NAME + "(" +
+        /*db.execSQL("create table "+ WalletDbSchema.Licence.NAME + "(" +
                 " _id integer primary key autoincrement, " +
                 WalletDbSchema.WirelessRouter.Cols.UUID + ", " +
                 WalletDbSchema.Licence.Cols.ADDRESS + ", " +
@@ -96,7 +96,7 @@ public class WalletBaseHelper extends SQLiteOpenHelper
                 WalletDbSchema.Licence.Cols.COUNTRY + ", " +
                 WalletDbSchema.Licence.Cols.STATE + ", " +
                         WalletDbSchema.Licence.Cols.LICENCECLASS+")"
-        );
+        );*/
     }
 
     @Override
