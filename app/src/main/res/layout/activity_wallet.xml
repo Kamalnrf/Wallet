@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:fitsSystemWindows="true"
-    tools:context="com.example.kamalnrf.wallet.WalletActivity">
+    tools:context="com.app.kamalnrf.wallet.WalletActivity">
 
 
     <TextView

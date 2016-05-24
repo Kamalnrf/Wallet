@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.example.kamalnrf.wallet"
+<manifest package="com.app.kamalnrf.wallet"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/wallet_logo"
-        android:logo="@drawable/wallet_logo"
-        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher2"
+        android:logo="@mipmap/ic_launcher2"
+        android:label="Wallet"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".WalletActivity"
+            android:name="com.app.kamalnrf.wallet.WalletActivity"
             android:icon="@drawable/wallet_logo"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
@@ -20,42 +20,42 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Controllers.BankAccountCntrollers.BankAccountListActivity"
-                  android:parentActivityName=".WalletActivity"
+        <activity android:name="com.app.kamalnrf.wallet.Controllers.BankAccountCntrollers.BankAccountListActivity"
+                  android:parentActivityName="com.app.kamalnrf.wallet.WalletActivity"
                   android:label="Bank Account"
                   />
-        <activity android:name=".Controllers.IdentityControllers.IndentityListActivity"
-                  android:parentActivityName=".WalletActivity"
+        <activity android:name="com.app.kamalnrf.wallet.Controllers.IdentityControllers.IndentityListActivity"
+                  android:parentActivityName="com.app.kamalnrf.wallet.WalletActivity"
                   android:label="Identity"
             />
-        <activity android:name=".Controllers.WireLessController.WirelessRouterListActivity"
-                  android:parentActivityName=".WalletActivity"
+        <activity android:name="com.app.kamalnrf.wallet.Controllers.WireLessController.WirelessRouterListActivity"
+                  android:parentActivityName="com.app.kamalnrf.wallet.WalletActivity"
                   android:label="WIFI Router"
             />
         <activity
-            android:name=".Controllers.LicenceControllers.LicenceListActivity"
-            android:parentActivityName=".WalletActivity"
+            android:name="com.app.kamalnrf.wallet.Controllers.LicenceControllers.LicenceListActivity"
+            android:parentActivityName="com.app.kamalnrf.wallet.WalletActivity"
             android:label="Licence"
             />
         <activity
-            android:name=".Controllers.BankAccountCntrollers.BankAccountPagetActivity"
-            android:parentActivityName=".Controllers.BankAccountCntrollers.BankAccountListActivity"
+            android:name="com.app.kamalnrf.wallet.Controllers.BankAccountCntrollers.BankAccountPagetActivity"
+            android:parentActivityName="com.app.kamalnrf.wallet.Controllers.BankAccountCntrollers.BankAccountListActivity"
             android:label="Bank Account"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".Controllers.IdentityControllers.IdentityPagerActivity"
-                  android:parentActivityName=".Controllers.IdentityControllers.IndentityListActivity"
+        <activity android:name="com.app.kamalnrf.wallet.Controllers.IdentityControllers.IdentityPagerActivity"
+                  android:parentActivityName="com.app.kamalnrf.wallet.Controllers.IdentityControllers.IndentityListActivity"
                   android:label="Identity"
                   android:screenOrientation="portrait"/>
 
-        <activity android:name=".Controllers.WireLessController.WirelessRouterPagerActivity"
-                  android:parentActivityName=".Controllers.WireLessController.WirelessRouterListActivity"
+        <activity android:name="com.app.kamalnrf.wallet.Controllers.WireLessController.WirelessRouterPagerActivity"
+                  android:parentActivityName="com.app.kamalnrf.wallet.Controllers.WireLessController.WirelessRouterListActivity"
                   android:label="WIFI Router"
                   android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".Controllers.LicenceControllers.LicencePagerActivity"
-            android:parentActivityName=".Controllers.WireLessController.WirelessRouterListActivity"
+            android:name="com.app.kamalnrf.wallet.Controllers.LicenceControllers.LicencePagerActivity"
+            android:parentActivityName="com.app.kamalnrf.wallet.Controllers.WireLessController.WirelessRouterListActivity"
             android:label="Licence"
             android:screenOrientation="portrait"/>
 
