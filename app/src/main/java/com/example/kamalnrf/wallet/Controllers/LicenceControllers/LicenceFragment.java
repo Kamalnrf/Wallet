@@ -336,7 +336,5 @@ public class LicenceFragment extends Fragment
             default:
                 return super.onOptionsItemSelected(item);
         }
-
-
     }
 }
