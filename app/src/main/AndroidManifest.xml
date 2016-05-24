@@ -31,6 +31,11 @@
                   android:label="WIFI Router"
             />
         <activity
+            android:name=".Controllers.LicenceControllers.LicenceListActivity"
+            android:parentActivityName=".WalletActivity"
+            android:label="Licence"
+            />
+        <activity
             android:name=".Controllers.BankAccountCntrollers.BankAccountPagetActivity"
             android:parentActivityName=".Controllers.BankAccountCntrollers.BankAccountListActivity"
             android:label="Bank Account"
@@ -45,6 +50,15 @@
                   android:parentActivityName=".Controllers.WireLessController.WirelessRouterListActivity"
                   android:label="WIFI Router"
                   android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".Controllers.LicenceControllers.LicencePagerActivity"
+            android:parentActivityName=".Controllers.WireLessController.WirelessRouterListActivity"
+            android:label="Licence"
+            android:screenOrientation="portrait"/>
+
+
+
 
     </application>
 

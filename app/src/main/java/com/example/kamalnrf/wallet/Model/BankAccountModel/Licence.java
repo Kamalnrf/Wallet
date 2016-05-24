@@ -8,6 +8,7 @@ import java.util.UUID;
 public class Licence
 {
     public UUID mUUID;
+    private String mTitle = "Licence";
     public String mFullName;
     public String mAddress;
     public String mDateOfBirth;
@@ -18,6 +19,14 @@ public class Licence
     public String mState;
     public String mCountry;
     public String mExpiryDate;
+
+    public String getmTitle() {
+        return mTitle;
+    }
+
+    public void setmTitle(String mTitle) {
+        this.mTitle = mTitle;
+    }
 
     public Licence ()
     {

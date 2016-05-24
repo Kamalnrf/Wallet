@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<android.support.v4.view.ViewPager
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_licence_pager_view_pager"
     android:layout_width="match_parent"
-    android:id="@+id/fragment_container_identity"
     android:layout_height="match_parent">
 
-</FrameLayout>
+</android.support.v4.view.ViewPager>

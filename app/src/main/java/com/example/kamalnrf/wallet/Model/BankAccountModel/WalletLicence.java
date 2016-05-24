@@ -135,4 +135,14 @@ public class WalletLicence
 
         mDatabase.delete(WalletDbSchema.Licence.NAME, WalletDbSchema.Licence.Cols.UUID + " = ?", new String[]{uuidString});
     }
+
+    public void upDateLicence(Licence licence)
+    {
+        String uuidString = licence.getUUID().toString();
+        ContentValues values = getContentValues(licence);
+
+        mDatabase.update(WalletDbSchema.Licence.NAME, values,
+                WalletDbSchema.Licence.Cols.UUID + " =?"
+                , new String[]{uuidString});
+    }
 }

@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import com.example.kamalnrf.wallet.Controllers.BankAccountCntrollers.BankAccountListActivity;
 import com.example.kamalnrf.wallet.Controllers.IdentityControllers.IndentityListActivity;
+import com.example.kamalnrf.wallet.Controllers.LicenceControllers.LicenceListActivity;
 import com.example.kamalnrf.wallet.Controllers.WireLessController.WirelessRouterListActivity;
 
 public class WalletActivity extends AppCompatActivity
@@ -52,9 +53,13 @@ public class WalletActivity extends AppCompatActivity
         });
 
         mLicence = (Button) findViewById(R.id.licence);
-        /*mLicence.setOnClickListener(new View.OnClickListener()
+        mLicence.setOnClickListener(new View.OnClickListener()
         {
-            Intent intent = mLicence.
-        });*/
+            @Override
+            public void onClick(View v) {
+                Intent intent = LicenceListActivity.newIntent(WalletActivity.this);
+                startActivity(intent);
+            }
+        });
     }
 }

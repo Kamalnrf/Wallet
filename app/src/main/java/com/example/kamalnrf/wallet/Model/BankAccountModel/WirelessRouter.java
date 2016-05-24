@@ -8,7 +8,7 @@ import java.util.UUID;
 public class WirelessRouter
 {
     private UUID mUUID;
-    private String mWirelessRouter = "Wireless Router";
+    private String mWirelessRouter = "WIFI Router";
     private String mBaseStationName;
     private String mBaseStationPassword;
     private String mServer;

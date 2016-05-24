@@ -20,7 +20,8 @@
         android:textAlignment="center"
         android:padding="20dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        style="?android:listSeparatorTextViewStyle"/>
 
     <LinearLayout
         android:orientation="vertical"
