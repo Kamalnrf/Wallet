@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "508884774253",
+    "project_id": "wallet-14acc"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508884774253:android:79619702cddc287a",
+        "android_client_info": {
+          "package_name": "com.app.kamalnrf.wallet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBExJsIuUMMkW_n4lpPjGTZW6xVdedj6fU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-78243960-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

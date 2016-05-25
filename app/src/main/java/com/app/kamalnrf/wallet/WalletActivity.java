@@ -10,6 +10,8 @@ import com.app.kamalnrf.wallet.Controllers.BankAccountCntrollers.BankAccountList
 import com.app.kamalnrf.wallet.Controllers.IdentityControllers.IndentityListActivity;
 import com.app.kamalnrf.wallet.Controllers.LicenceControllers.LicenceListActivity;
 import com.app.kamalnrf.wallet.Controllers.WireLessController.WirelessRouterListActivity;
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 
 public class WalletActivity extends AppCompatActivity
 {
@@ -19,11 +21,17 @@ public class WalletActivity extends AppCompatActivity
     private Button mLicence;
     private Button mIdentity;
     private Button mWifiRouter;
+    private Tracker mTracker;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wallet);
+
+        // Obtain the shared Tracker instance.
+        AnalyticsApplication application = (AnalyticsApplication) getApplication();
+        mTracker = application.getDefaultTracker();
 
         mBankAccount = (Button) findViewById(R.id.bank_account);
         mBankAccount.setOnClickListener(new View.OnClickListener() {
@@ -31,6 +39,13 @@ public class WalletActivity extends AppCompatActivity
             public void onClick(View v) {
                 Intent intent = BankAccountListActivity.newIntent(WalletActivity.this);
                 startActivity(intent);
+
+                mTracker.send(new HitBuilders.EventBuilder()
+                        .setCategory("Fields")
+                        .setAction("BankAccount")
+                        .setLabel("Bank Account")
+                        .setValue(1)
+                        .build());
             }
         });
 
@@ -40,6 +55,13 @@ public class WalletActivity extends AppCompatActivity
             public void onClick(View v) {
                 Intent intent = IndentityListActivity.newIntent(WalletActivity.this);
                 startActivity(intent);
+
+                mTracker.send(new HitBuilders.EventBuilder()
+                        .setCategory("Fields")
+                        .setAction("Identity")
+                        .setLabel("Identity")
+                        .setValue(1)
+                        .build());
             }
         });
 
@@ -49,6 +71,13 @@ public class WalletActivity extends AppCompatActivity
             public void onClick(View v) {
                 Intent intent = WirelessRouterListActivity.newIntent(WalletActivity.this);
                 startActivity(intent);
+
+                mTracker.send(new HitBuilders.EventBuilder()
+                        .setCategory("Fields")
+                        .setAction("Wifi")
+                        .setLabel("wifi")
+                        .setValue(1)
+                        .build());
             }
         });
 
@@ -59,6 +88,13 @@ public class WalletActivity extends AppCompatActivity
             public void onClick(View v) {
                 Intent intent = LicenceListActivity.newIntent(WalletActivity.this);
                 startActivity(intent);
+
+                mTracker.send(new HitBuilders.EventBuilder()
+                        .setCategory("Fields")
+                        .setAction("Licence")
+                        .setLabel("licence")
+                        .setValue(1)
+                        .build());
             }
         });
     }

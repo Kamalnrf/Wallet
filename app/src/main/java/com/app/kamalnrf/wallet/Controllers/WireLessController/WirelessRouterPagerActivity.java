@@ -21,7 +21,7 @@ import java.util.UUID;
  */
 public class WirelessRouterPagerActivity extends AppCompatActivity
 {
-    private static final String EXTRA_ID = "com.example.kamalnrf.wallet.Controllers.WireLessController";
+    private static final String EXTRA_ID = "com.app.kamalnrf.wallet.Controllers.WireLessController";
     private ViewPager mViewPager;
     private List<WirelessRouter> mWirelessRouters;
 

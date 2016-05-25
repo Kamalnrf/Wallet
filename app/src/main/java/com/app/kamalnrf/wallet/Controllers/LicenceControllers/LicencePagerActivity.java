@@ -21,7 +21,7 @@ import java.util.UUID;
  */
 public class LicencePagerActivity extends AppCompatActivity
 {
-    private static final String EXTRA_ID = "com.example.kamalnrf.wallet.Controllers.LicenceControllers.LicencePagerActivity";
+    private static final String EXTRA_ID = "com.app.kamalnrf.wallet.Controllers.LicenceControllers.LicencePagerActivity";
     private ViewPager mViewPager;
     private List<Licence> mLiceneList;
 

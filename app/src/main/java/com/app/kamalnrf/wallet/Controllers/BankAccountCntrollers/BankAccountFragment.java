@@ -20,11 +20,14 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.app.kamalnrf.wallet.AnalyticsApplication;
 import com.app.kamalnrf.wallet.Controllers.DatePickerFragment;
 import com.app.kamalnrf.wallet.Controllers.PictureUtils;
 import com.app.kamalnrf.wallet.Model.BankAccountModel.Crime;
 import com.app.kamalnrf.wallet.Model.BankAccountModel.CrimeLab;
 import com.app.kamalnrf.wallet.R;
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 
 import java.io.File;
 import java.util.Date;
@@ -56,6 +59,7 @@ public class BankAccountFragment extends Fragment
     private Button mDateButton;
     private ImageButton mphotoButton;
     private ImageView mphotoView;
+    private Tracker mTracker;
 
     //Fragment On Create
     @Override
@@ -69,11 +73,16 @@ public class BankAccountFragment extends Fragment
         mPhotoFile = CrimeLab.get(getActivity()).getPhotoFile(mCrime);
 
         setHasOptionsMenu(true);
+
+
+
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
+
         //Inflate the layout for this fragment
 
         View v = inflater.inflate(R.layout.fragment_crime, container, false);
@@ -175,6 +184,8 @@ public class BankAccountFragment extends Fragment
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 mCrime.setRoutingNumber(s.toString());
 
+
+
             }
 
             @Override
@@ -194,6 +205,7 @@ public class BankAccountFragment extends Fragment
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 mCrime.setAccountNumber(s.toString());
+
 
             }
 
@@ -255,6 +267,7 @@ public class BankAccountFragment extends Fragment
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 mCrime.setPin(s.toString());
 
+
             }
 
             @Override
@@ -295,6 +308,8 @@ public class BankAccountFragment extends Fragment
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 mCrime.setAddress(s.toString());
 
+
+
             }
 
             @Override
@@ -303,7 +318,7 @@ public class BankAccountFragment extends Fragment
             }
         });
 
-        mDateButton = (Button) v.findViewById(R.id.crime_date);;
+       /* mDateButton = (Button) v.findViewById(R.id.crime_date);;
         updateDate();
         mDateButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -313,7 +328,7 @@ public class BankAccountFragment extends Fragment
                 dialog.setTargetFragment(BankAccountFragment.this, REQUEST_DATE);
                 dialog.show(manager, DIALOG_DATE);
             }
-        });
+        });*/
 
 
         PackageManager packageManager = getActivity().getPackageManager();

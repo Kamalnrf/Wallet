@@ -21,7 +21,7 @@ import java.util.UUID;
  */
 public class IdentityPagerActivity extends AppCompatActivity
 {
-    private static final String EXTRA_ID = "com.example.kamalnrf.wallet.Controllers.IdentityControllers";
+    private static final String EXTRA_ID = "com.app.kamalnrf.wallet.Controllers.IdentityControllers";
     private ViewPager mViewPager;
     private List<Identity> mIdentities;
 

@@ -9,9 +9,11 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
+import com.app.kamalnrf.wallet.AnalyticsApplication;
 import com.app.kamalnrf.wallet.Model.BankAccountModel.Crime;
 import com.app.kamalnrf.wallet.Model.BankAccountModel.CrimeLab;
 import com.app.kamalnrf.wallet.R;
+import com.google.android.gms.analytics.Tracker;
 
 import java.util.List;
 import java.util.UUID;
@@ -21,9 +23,10 @@ import java.util.UUID;
  */
 public class BankAccountPagetActivity extends AppCompatActivity
 {
-    private static final String EXTRA_CRIME_ID = "com.example.kamalnrf.wallet.Controllers.BankAccountCntrollers;";
+    private static final String EXTRA_CRIME_ID = "com.app.kamalnrf.wallet.Controllers.BankAccountCntrollers;";
     private ViewPager mViewPager;
     private List<Crime> mCrimes;
+    private Tracker mTracker;
 
     public static Intent newIntent (Context packageContext, UUID crimeId)
     {
@@ -36,6 +39,7 @@ public class BankAccountPagetActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+
 
         setContentView(R.layout.activity_crime_pager);
 
