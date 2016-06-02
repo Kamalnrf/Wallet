@@ -11,10 +11,18 @@
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/red</item>
     </style>
+
+
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    
+    <style name="MainButton" parent="android:Widget.DeviceDefault.Light.ActionButton">
+        <item name="android:background">@drawable/wallet_main_normal</item>
+        <item name="android:colorBackground">@color/red</item>
+    </style>
 
 </resources>

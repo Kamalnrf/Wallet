@@ -1,8 +1,13 @@
 package com.app.kamalnrf.wallet;
 
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.Signature;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Base64;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -12,6 +17,9 @@ import com.app.kamalnrf.wallet.Controllers.LicenceControllers.LicenceListActivit
 import com.app.kamalnrf.wallet.Controllers.WireLessController.WirelessRouterListActivity;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
+
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 
 public class WalletActivity extends AppCompatActivity
 {
@@ -28,6 +36,7 @@ public class WalletActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wallet);
+
 
         // Obtain the shared Tracker instance.
         AnalyticsApplication application = (AnalyticsApplication) getApplication();
