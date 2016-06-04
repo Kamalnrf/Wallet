@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/base_station_name_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/base_station_password_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/server_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -81,7 +81,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/air_port_id_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -97,7 +97,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/network_name_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -113,7 +113,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/wireless_security_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -129,7 +129,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/wireless_network_password_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -145,7 +145,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/wireless_storage_password_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
 
     </LinearLayout>

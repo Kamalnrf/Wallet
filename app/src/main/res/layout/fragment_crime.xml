@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/bank_name_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -50,6 +50,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/name_on_account_hint"
             android:textSize="10dp"
+            android:paddingLeft="13dp"
             />
 
         <TextView
@@ -66,7 +67,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/account_type_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -82,7 +83,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/routing_number_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -98,7 +99,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/account_number_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -114,7 +115,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/swift_code_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -130,7 +131,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/iban_number_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -146,7 +147,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/pin_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -162,7 +163,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/phone_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -178,7 +179,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/address_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
     </LinearLayout>
 
