@@ -29,7 +29,8 @@
             android:layout_height="wrap_content"
             android:text="Full Name"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/full_name"
@@ -37,14 +38,15 @@
             android:layout_height="wrap_content"
             android:hint="Enter your name"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/address"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/address"
@@ -52,14 +54,15 @@
             android:layout_height="wrap_content"
             android:hint="@string/address_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/birth_date"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/birth_date"
@@ -67,14 +70,15 @@
             android:layout_height="wrap_content"
             android:hint="@string/birth_date_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sex"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/sex"
@@ -82,14 +86,15 @@
             android:layout_height="wrap_content"
             android:hint="@string/sex_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/height"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/height"
@@ -97,14 +102,15 @@
             android:layout_height="wrap_content"
             android:hint="@string/height_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/number"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/number"
@@ -112,14 +118,15 @@
             android:layout_height="wrap_content"
             android:hint="@string/number_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/licence_class"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/licence_class"
@@ -127,14 +134,15 @@
             android:layout_height="wrap_content"
             android:hint="@string/licence_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/province"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/province"
@@ -142,14 +150,15 @@
             android:layout_height="wrap_content"
             android:hint="@string/province_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/country"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/country"
@@ -157,14 +166,15 @@
             android:layout_height="wrap_content"
             android:hint="@string/country_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/expiry_date"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/expiry_date"
@@ -172,7 +182,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/expiry_date_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:paddingLeft="13dp"/>
 
     </LinearLayout>
     </ScrollView>

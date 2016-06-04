@@ -26,7 +26,8 @@
             android:layout_height="wrap_content"
             android:text="@string/first_name"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/first_name"
@@ -41,7 +42,8 @@
             android:layout_height="wrap_content"
             android:text="@string/last_name"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/last_name"
@@ -55,7 +57,8 @@
             android:layout_height="wrap_content"
             android:text="@string/sex"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/sex"
@@ -70,7 +73,8 @@
             android:layout_height="wrap_content"
             android:text="@string/birth_date"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/birth_date"
@@ -85,7 +89,8 @@
             android:layout_height="wrap_content"
             android:text="@string/occupation"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/occupation"
@@ -99,7 +104,8 @@
             android:layout_height="wrap_content"
             android:text="@string/company"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/company"
@@ -113,7 +119,8 @@
             android:layout_height="wrap_content"
             android:text="@string/department"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/department"
@@ -127,7 +134,8 @@
             android:layout_height="wrap_content"
             android:text="@string/job_title"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/job_title"
@@ -141,7 +149,8 @@
             android:layout_height="wrap_content"
             android:text="@string/street"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/street"
@@ -155,7 +164,8 @@
             android:layout_height="wrap_content"
             android:text="@string/city"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/city"
@@ -169,7 +179,8 @@
             android:layout_height="wrap_content"
             android:text="@string/zip"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/zip"
@@ -183,7 +194,8 @@
             android:layout_height="wrap_content"
             android:text="@string/province"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/province"
@@ -197,7 +209,8 @@
             android:layout_height="wrap_content"
             android:text="@string/country"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/country"
@@ -211,7 +224,8 @@
             android:layout_height="wrap_content"
             android:text="@string/home_phone"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/home"
@@ -225,7 +239,8 @@
             android:layout_height="wrap_content"
             android:text="@string/cell_phone"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/cell_phone"
@@ -239,7 +254,8 @@
             android:layout_height="wrap_content"
             android:text="@string/business_phone"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/bussiness_phone"
@@ -253,7 +269,8 @@
             android:layout_height="wrap_content"
             android:text="@string/user_name"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/user_name"
@@ -267,7 +284,8 @@
             android:layout_height="wrap_content"
             android:text="@string/reminder_question"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/reminder_question"
@@ -281,7 +299,8 @@
             android:layout_height="wrap_content"
             android:text="@string/reminder_answer"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/reminder_answer"
@@ -295,7 +314,8 @@
             android:layout_height="wrap_content"
             android:text="@string/email"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/email"
@@ -309,7 +329,8 @@
             android:layout_height="wrap_content"
             android:text="@string/web_site"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/web_site"
@@ -323,7 +344,8 @@
             android:layout_height="wrap_content"
             android:text="@string/ICQ"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/icq"
@@ -337,7 +359,8 @@
             android:layout_height="wrap_content"
             android:text="@string/skype"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/skype"
@@ -351,7 +374,8 @@
             android:layout_height="wrap_content"
             android:text="@string/forum_signature"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/forum_signature"

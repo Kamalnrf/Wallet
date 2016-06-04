@@ -3,26 +3,45 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimary">@android:color/holo_purple</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="WalletLayout">
+        <item name="android:background">@drawable/layout_rounded</item>
+        <item name="android:layout_margin">30dp</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="colorPrimary">@color/red</item>
+        <item name="android:windowFullscreen">true</item>
     </style>
-
-
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
-    
-    <style name="MainButton" parent="android:Widget.DeviceDefault.Light.ActionButton">
+
+
+    <!-- Wallet Main Page -->
+
+    <style name="BankAccountButton">
         <item name="android:background">@drawable/wallet_main_normal</item>
-        <item name="android:colorBackground">@color/red</item>
+    </style>
+
+    <style name="IdentityButton">
+        <item name="android:background">@drawable/identity_main</item>
+    </style>
+
+    <style name="WifiRoutertButton">
+        <item name="android:background">@drawable/wifi_router_main</item>
+    </style>
+
+    <style name="LicenceButton">
+        <item name="android:background">@drawable/licence_main_normal</item>
     </style>
 
 </resources>

@@ -25,7 +25,8 @@
             android:layout_height="wrap_content"
             android:text="@string/bank_name"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/bank_name"
@@ -40,7 +41,8 @@
             android:layout_height="wrap_content"
             android:text="@string/name_on_account"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/name_on_account"
@@ -48,14 +50,15 @@
             android:layout_height="wrap_content"
             android:hint="@string/name_on_account_hint"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/account_type"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/account_type"
@@ -70,7 +73,8 @@
             android:layout_height="wrap_content"
             android:text="@string/routing_number"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/routing_number_hint"
@@ -85,7 +89,8 @@
             android:layout_height="wrap_content"
             android:text="@string/account_number"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/account_number"
@@ -100,7 +105,8 @@
             android:layout_height="wrap_content"
             android:text="@string/swift_code"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/swift_code"
@@ -115,7 +121,8 @@
             android:layout_height="wrap_content"
             android:text="@string/iban_number"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/iban_number"
@@ -130,7 +137,8 @@
             android:layout_height="wrap_content"
             android:text="@string/pin"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/pin"
@@ -145,7 +153,8 @@
             android:layout_height="wrap_content"
             android:text="@string/phone"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/phone"
@@ -160,7 +169,8 @@
             android:layout_height="wrap_content"
             android:text="@string/address"
             android:textSize="10dp"
-            android:padding="13dp"/>
+            android:textColor="@color/blue"
+            android:padding="7dp"/>
 
         <EditText
             android:id="@+id/address"
