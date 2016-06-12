@@ -96,6 +96,12 @@ public class WalletBaseHelper extends SQLiteOpenHelper
                 WalletDbSchema.Licence.Cols.STATE + ", " +
                         WalletDbSchema.Licence.Cols.LICENCECLASS+")"
         );
+
+        db.execSQL("create table "+ WalletDbSchema.Password.NAME + "(" +
+                " _id integer primary key autoincrement, " +
+                WalletDbSchema.Password.Cols.UUID + ", " +
+                WalletDbSchema.Password.Cols.PASSWORD + ")"
+        );
     }
 
     @Override

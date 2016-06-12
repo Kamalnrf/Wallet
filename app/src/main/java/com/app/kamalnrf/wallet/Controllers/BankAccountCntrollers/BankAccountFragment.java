@@ -73,10 +73,6 @@ public class BankAccountFragment extends Fragment
         mPhotoFile = CrimeLab.get(getActivity()).getPhotoFile(mCrime);
 
         setHasOptionsMenu(true);
-
-
-
-
     }
 
     @Override

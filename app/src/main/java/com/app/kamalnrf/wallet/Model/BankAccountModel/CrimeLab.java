@@ -27,6 +27,12 @@ public class CrimeLab
     private Context mContext;
     private SQLiteDatabase mDatabase;
 
+    public CrimeLab(Context context)
+    {
+        mContext = context.getApplicationContext();
+        mDatabase = new WalletBaseHelper(mContext)
+                .getWritableDatabase();
+    }
 
     public static CrimeLab get (Context context)
     {
@@ -58,12 +64,6 @@ public class CrimeLab
         return values;
     }
 
-    public CrimeLab(Context context)
-    {
-        mContext = context.getApplicationContext();
-        mDatabase = new WalletBaseHelper(mContext)
-                .getWritableDatabase();
-    }
 
     public List<Crime> getCrimes()
     {

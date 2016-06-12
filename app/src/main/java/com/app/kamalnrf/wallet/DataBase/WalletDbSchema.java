@@ -5,6 +5,16 @@ package com.app.kamalnrf.wallet.DataBase;
  */
 public class WalletDbSchema
 {
+    public static final class Password
+    {
+        public static final String NAME = "password";
+
+        public static final class Cols
+        {
+            public static final String PASSWORD = "password";
+            public static final String UUID = "uuid";
+        }
+    }
     public static final class CrimeTable
     {
         public static final String NAME = "crimes";

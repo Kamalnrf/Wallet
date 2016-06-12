@@ -7,6 +7,7 @@ import com.app.kamalnrf.wallet.Model.BankAccountModel.Crime;
 import com.app.kamalnrf.wallet.Model.BankAccountModel.Identity;
 import com.app.kamalnrf.wallet.Model.BankAccountModel.Licence;
 import com.app.kamalnrf.wallet.Model.BankAccountModel.WirelessRouter;
+import com.app.kamalnrf.wallet.Passwor;
 
 import java.util.Date;
 import java.util.UUID;
@@ -175,6 +176,17 @@ public class WalletCursorWrapper extends CursorWrapper
         licence1.setState(state);
 
         return licence1;
+    }
+
+    public Passwor getPassword ()
+    {
+        String password = getString(getColumnIndex(WalletDbSchema.Password.Cols.PASSWORD));
+        String uuid = "1";
+
+        Passwor passwor = new Passwor();
+        passwor.setPassword(password);
+
+        return passwor;
     }
 
 }
