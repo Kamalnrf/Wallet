@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/base_station_name"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -32,14 +32,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/base_station_name_hint"
-            android:textSize="10dp"
+            android:textSize="15dp"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/base_station_password"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -48,14 +50,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/base_station_password_hint"
-            android:textSize="10dp"
+            android:inputType="textNoSuggestions"
+            android:textSize="15dp"
+            android:singleLine="true"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/server"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -64,14 +68,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/server_hint"
-            android:textSize="10dp"
+            android:textSize="15dp"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/air_port_id"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -80,14 +86,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/air_port_id_hint"
-            android:textSize="10dp"
+            android:inputType="textNoSuggestions"
+            android:textSize="15dp"
+            android:singleLine="true"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/network_name"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -96,14 +104,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/network_name_hint"
-            android:textSize="10dp"
+            android:inputType="textNoSuggestions"
+            android:textSize="15dp"
+            android:singleLine="true"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/wireless_security"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -112,14 +122,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/wireless_security_hint"
-            android:textSize="10dp"
+            android:textSize="15dp"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/wireless_network_password"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -128,14 +140,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/wireless_network_password_hint"
-            android:textSize="10dp"
+            android:textSize="15dp"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/wireless_storage_password"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -143,8 +157,10 @@
             android:id="@+id/wireless_storage_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textNoSuggestions"
             android:hint="@string/wireless_storage_password_hint"
-            android:textSize="10dp"
+            android:textSize="15dp"
+            android:singleLine="true"
             android:paddingLeft="13dp"/>
 
 

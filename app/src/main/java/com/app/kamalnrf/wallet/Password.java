@@ -30,6 +30,7 @@ public class Password extends AppCompatActivity
     protected void onCreate(@Nullable Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+        final int[] a = {0};
 
         mPasswordVerifier = PasswordC.get(this).getPasswords(mUuid);
 
@@ -60,23 +61,41 @@ public class Password extends AppCompatActivity
                 }
             });
 
-            mSubmit = (Button) findViewById(R.id.submit);
-            mSubmit.setOnClickListener(new View.OnClickListener()
-            {
-                @Override
-                public void onClick(View v)
+                mSubmit = (Button) findViewById(R.id.submit);
+                mSubmit.setOnClickListener(new View.OnClickListener()
                 {
-                    if (enPass[0].equals(password))
+                    @Override
+                    public void onClick(View v)
                     {
-                        Intent intent = new Intent(Password.this, WalletActivity.class);
-                        startActivity(intent);
-                        finish();
+                        if (enPass[0] != null) {
+                            if (enPass[0].equals(password)) {
+                                Intent intent = new Intent(Password.this, WalletActivity.class);
+                                startActivity(intent);
+                                finish();
+                            } else
+                                mTextView.setText("Enter correct password");
+                        }
+                        else
+                        {
+                            if (a[0] == 0) {
+                                mTextView.setText("Enter the password");
+                                a[0]++;
+                            }
+                            else if (a[0] == 1)
+                            {
+                                mTextView.setText("Are you serious...?");
+                                a[0]++;
+                            }
+                            else if (a[0] > 5)
+                            {
+                                mTextView.setText("Are you drunk...?");
+                                a[0]++;
+                            }
+                        }
                     }
-                    else
-                        mTextView.setText("Enter correct password");
-                }
 
-            });
+                });
+
 
 
         } else {
@@ -101,19 +120,16 @@ public class Password extends AppCompatActivity
                 }
             });
 
+                mSubmit = (Button) findViewById(R.id.create_password_button);
+                mSubmit.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(Password.this, WalletActivity.class);
+                        startActivity(intent);
+                        finish();
+                    }
 
-
-            mSubmit = (Button) findViewById(R.id.create_password_button);
-            mSubmit.setOnClickListener(new View.OnClickListener()
-            {
-                @Override
-                public void onClick(View v) {
-                    Intent intent = new Intent(Password.this, WalletActivity.class);
-                    startActivity(intent);
-                    finish();
-                }
-
-            });
+                });
 
             SharedPreferences.Editor ed = pref.edit();
             ed.putBoolean("activity_executed", true);

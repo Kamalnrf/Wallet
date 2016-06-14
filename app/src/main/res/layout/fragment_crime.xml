@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/bank_name"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -32,15 +32,17 @@
             android:id="@+id/bank_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textNoSuggestions"
             android:hint="@string/bank_name_hint"
-            android:textSize="10dp"
+            android:singleLine="true"
+            android:textSize="15dp"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/name_on_account"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -49,7 +51,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/name_on_account_hint"
-            android:textSize="10dp"
+            android:inputType="textNoSuggestions"
+            android:singleLine="true"
+            android:textSize="15dp"
             android:paddingLeft="13dp"
             />
 
@@ -57,7 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/account_type"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -66,14 +70,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/account_type_hint"
-            android:textSize="10dp"
+            android:inputType="textNoSuggestions"
+            android:singleLine="true"
+            android:textSize="15dp"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/routing_number"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -82,14 +88,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/routing_number_hint"
-            android:textSize="10dp"
+            android:inputType="textNoSuggestions"
+            android:singleLine="true"
+            android:textSize="15dp"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/account_number"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -98,14 +106,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/account_number_hint"
-            android:textSize="10dp"
+            android:inputType="textNoSuggestions"
+            android:singleLine="true"
+            android:textSize="15dp"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/swift_code"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -114,14 +124,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/swift_code_hint"
-            android:textSize="10dp"
+            android:inputType="textNoSuggestions"
+            android:singleLine="true"
+            android:textSize="15dp"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/iban_number"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -130,14 +142,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/iban_number_hint"
-            android:textSize="10dp"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
+            android:textSize="15dp"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/pin"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -146,14 +160,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/pin_hint"
-            android:textSize="10dp"
+            android:textSize="15dp"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/phone"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -162,14 +178,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/phone_hint"
-            android:textSize="10dp"
+            android:textSize="15dp"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/address"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -178,7 +196,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/address_hint"
-            android:textSize="10dp"
+            android:textSize="15dp"
+            android:inputType="textNoSuggestions"
             android:paddingLeft="13dp"/>
 
     </LinearLayout>

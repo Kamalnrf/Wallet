@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Full Name"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -37,14 +37,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter your name"
-            android:textSize="10dp"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
+            android:textSize="15dp"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/address"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -53,14 +55,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/address_hint"
-            android:textSize="10dp"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
+            android:textSize="15dp"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/birth_date"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -69,14 +73,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/birth_date_hint"
-            android:textSize="10dp"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
+            android:textSize="15dp"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sex"
-            android:textSize="10dp"
+            android:singleLine="true"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -85,14 +92,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/sex_hint"
-            android:textSize="10dp"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
+            android:textSize="15dp"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/height"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -101,14 +110,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/height_hint"
-            android:textSize="10dp"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
+            android:textSize="15dp"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/number"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -117,14 +128,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/number_hint"
-            android:textSize="10dp"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
+            android:textSize="15dp"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/licence_class"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -133,14 +146,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/licence_hint"
-            android:textSize="10dp"
+            android:inputType="textNoSuggestions"
+            android:singleLine="true"
+            android:textSize="15dp"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/province"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -149,14 +164,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/province_hint"
-            android:textSize="10dp"
+            android:inputType="textNoSuggestions"
+            android:singleLine="true"
+            android:textSize="15dp"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/country"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -165,14 +182,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/country_hint"
-            android:textSize="10dp"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
+            android:textSize="15dp"
             android:paddingLeft="13dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/expiry_date"
-            android:textSize="10dp"
+            android:textSize="15dp"
             android:textColor="@color/blue"
             android:padding="7dp"/>
 
@@ -181,7 +200,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/expiry_date_hint"
-            android:textSize="10dp"
+            android:singleLine="true"
+            android:inputType="textNoSuggestions"
+            android:textSize="15dp"
             android:paddingLeft="13dp"/>
 
     </LinearLayout>

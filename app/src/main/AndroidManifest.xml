@@ -34,19 +34,23 @@
         <activity android:name="com.app.kamalnrf.wallet.Controllers.BankAccountCntrollers.BankAccountListActivity"
                   android:parentActivityName="com.app.kamalnrf.wallet.WalletActivity"
                   android:label="Bank Account"
+            android:theme="@style/AppTheme.NoActionBar"
                   />
         <activity android:name="com.app.kamalnrf.wallet.Controllers.IdentityControllers.IndentityListActivity"
                   android:parentActivityName="com.app.kamalnrf.wallet.WalletActivity"
                   android:label="Identity"
+            android:theme="@style/AppTheme.NoActionBar"
             />
         <activity android:name="com.app.kamalnrf.wallet.Controllers.WireLessController.WirelessRouterListActivity"
                   android:parentActivityName="com.app.kamalnrf.wallet.WalletActivity"
                   android:label="WIFI Router"
+            android:theme="@style/AppTheme.NoActionBar"
             />
         <activity
             android:name="com.app.kamalnrf.wallet.Controllers.LicenceControllers.LicenceListActivity"
             android:parentActivityName="com.app.kamalnrf.wallet.WalletActivity"
             android:label="Licence"
+            android:theme="@style/AppTheme.NoActionBar"
             />
         <activity
             android:name="com.app.kamalnrf.wallet.Controllers.BankAccountCntrollers.BankAccountPagetActivity"
@@ -69,9 +73,6 @@
             android:parentActivityName="com.app.kamalnrf.wallet.Controllers.WireLessController.WirelessRouterListActivity"
             android:label="Licence"
             android:screenOrientation="portrait"/>
-
-
-
 
     </application>
 
